@@ -135,6 +135,7 @@ body{
   opacity: .5;
 }
 
+
 @media (max-width: 768px) {
   .wrapper{
     width: 87%;
@@ -250,5 +251,36 @@ body{
   .main__button{
     font: 500 14px/16px Roboto, arial, helvetica, sans-Serif;
     margin-bottom: 43px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper{
+    width: 91%;
+  }
+  .menu__item{
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+  .main__title{
+    padding-top: 17px;
+    font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+  }
+  .main__description{
+    padding-right: 67px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-Serif;
+  }
+  .header{
+    padding-bottom: 83px;
+  }
+  .main{
+    padding: 0 53% 193px 0;
+    background-size: 53%;
+  }
+
+  .main__button{
+    display: inline-block;
+    padding: 13px 20px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-Serif;
+    color: #fff;
   }
 }
